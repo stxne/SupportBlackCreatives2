@@ -1,0 +1,138 @@
+body, html{
+  background-color: #0C0A0A;
+  margin: 0px;
+  padding: 0px
+}
+@font-face {
+   font-family: DigestiveTwo;
+   src: url(DigestiveDemo-Two.otf);
+}
+@font-face {
+   font-family: NeueMachina;
+   src: url(NeueMachina-Regular.otf);
+}
+
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  color:#BFB3F2;
+}
+
+a {
+  text-decoration: none;
+  color:#BFB3F2;
+}
+
+.navMenu{
+  display: flex;
+  justify-content: space-around;
+  color:#BFB3F2;
+
+}
+
+.title{
+  font-family: DigestiveTwo;
+  font-size: 30vmin;
+  align-items: center;
+}
+
+.navLink{
+  display: flex;
+  font-family:  NeueMachina;
+  font-size: 2.5vmin;
+  flex-wrap: wrap;
+  padding: 5vmin 0px 0px 0px;
+}
+
+.homeContent{
+  margin: 5vmin 0px 5vmin 0px;
+  color:#BFB3F2;
+}
+
+.subheading{
+  display: flex;
+  justify-content: center;
+  font-family:  NeueMachina;
+  font-size: 2.5vmin;
+  padding-top: 1.5vmin;
+  padding-bottom: 1.5vmin;
+  color:#BFB3F2;
+}
+.highlightContent{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2vmin;
+  padding: 0px 10vmin 0px 10vmin;
+}
+
+.imageText{
+  text-align: center;
+  padding-bottom: 2vmin;
+}
+
+.smallMenu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vmin 5.5vmin 2vmin 3vmin;
+  flex-basis: auto;
+}
+
+.titleTwo{
+  display: flex;
+  justify-content: flex-start;
+  font-family: DigestiveTwo;
+  font-size: 8vmin;
+  color:#BFB3F2;
+  padding-right: 35vmin;
+}
+
+.smallHeader{
+  display: flex;
+  flex-shrink: 5;
+  font-family:  NeueMachina;
+  font-size: 2.5vmin;
+
+}
+
+ul{
+  list-style-type: none;
+}
+
+.letter{
+  font-family:  NeueMachina;
+  color:#BFB3F2;
+  font-size: 4.5vmin;
+}
+
+.creative{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.5vmin;
+}
+
+.listOfCreatives{
+  padding: 2vmin 8vmin 2vmin 8vmin;
+  line-height: 3em;
+}
+
+.nameIndex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px 8vmin 5vmin 8vmin;
+}
+
+.aboutParagraph{
+  display: flex;
+  color:#BFB3F2;
+  font-family: 'Roboto', sans-serif;
+  font-size: 4vmin;
+  text-align: center;
+  justify-content: center;
+  padding: 0px 10vmin 5vmin 10vmin;
+}
